@@ -1,0 +1,40 @@
+/***********
+Background
+***********/
+.bg-middle-blue, .bg-middle-blue:hover, .bg-middle-blue:active, .bg-middle-blue:focus, .bg-middle-blue:hover:focus{
+    background:#3586b0;
+}
+
+.bg-light{
+    background:#eee;
+}
+.bg-dark-blue{
+        background:#004264;
+}
+#navigation .bg-white{
+    background-color: white;
+}
+/***********
+Links
+***********/
+
+.link-light, .link-light:hover, .link-light:active{
+    color:#eee;
+}
+
+/***********
+Text
+***********/
+.text-light, .text-light:hover, .text-light:active, .text-light:focus, .text-light:focus:active{
+    color:#eee;
+}
+#navigation .text-light, #navigation .text-light:hover, #navigation .text-light:active, #navigation .text-light:focus, #navigation .text-light:focus:active{
+    color:#eee;
+}
+/***********
+Border
+***********/
+#navigation .b0, #navigation .b0:hover, #navigation .b0:focus, #navigation b0:active, #navigation .b0:active:focus{
+    border-color:transparent;
+}
+

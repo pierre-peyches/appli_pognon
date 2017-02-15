@@ -1,0 +1,79 @@
+@import url('color.css');
+@import url('margin.css');
+    header{
+    height:50px;
+}
+#name-soft{
+    width:200px;
+    height:50px;
+}
+#logo{
+text-transform: uppercase;
+/*    color: #eee;*/
+    font-size: 2.2em;
+    text-align: center;
+}
+#menu-toggle::before{
+    font-size:1.75em;
+}
+#navigation{
+    padding-left:15px;
+}
+
+#navigation .navbar.navbar-default{
+    border:0;
+}
+
+#content{
+    padding-left: 15px;
+        padding-right: 15px;
+}
+
+/*override sidebar*/
+
+/*
+.sidebar-nav li a,.sidebar-nav > .sidebar-brand a{
+    color:#eee;
+
+}
+.sidebar-nav li a:hover{
+    color:white;
+}
+#sidebar-wrapper .glyphicon{
+    color:white;
+    padding-right: 15px;
+    margin-left: -10px;
+}
+.sidebar-nav li a:hover{
+    border-right: 5px solid #3586b0;
+}
+*/
+/*Dissocier le cas de l'onglet actif*/
+/*
+.sidebar-nav li.active a:hover{
+    border-right: 0;
+}
+.sidebar-nav > .sidebar-brand a:hover {
+    border:0;
+}
+.sidebar-nav li.active{
+        border-right: 5px solid #3586b0;
+}
+*/
+/*End sidebar*/
+#navigation > li {
+    float:none;
+    display:block;
+}
+nav{display:inline-block;
+width:250px;border: 1px solid black;}
+#wrapper{
+    display:inline-block;
+    width:auto;
+    border: 1px solid black;
+}
+
+
+button a:hover,button a:visited{
+    text-decoration:none;
+}
